@@ -1,0 +1,27 @@
+.sobre-mim {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.txt-sobre {
+    /* margin-top: 60vh; */
+    top: 0;
+    font-size: 1.2em;
+    width: 80%;
+}
+
+.sobre-mim .sobre {
+    opacity: 1;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-name: react-reveal-449849398679662-5;
+}
+
+@media only screen and (min-width: 768px) {
+    .txt-sobre {
+        font-size: 2em;
+    }
+}

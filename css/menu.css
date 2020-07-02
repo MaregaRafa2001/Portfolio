@@ -1,0 +1,157 @@
+.img-perfil {
+    animation-fill-mode: both;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-reveal-449849398679662-1;
+}
+
+.imgPerfil {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.menu-lateral .imgPerfil img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+
+.titulo-perfil {
+    font-size: 1em;
+    line-height: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .titulo-perfil span.nome {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+
+.menu-lateral .icones {
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+    .menu-lateral .icones ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        line-height: 48px;
+        list-style: none;
+        margin-top: 15%;
+        width: 100%;
+        text-align: center;
+    }
+
+.menu-lateral nav {
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 15%;
+    /* margin-top: 40%; */
+}
+
+    .menu-lateral nav ul li {
+        display: inline;
+    }
+
+        .menu-lateral nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+            margin-left: 5%;
+        }
+
+            .menu-lateral nav ul li a span {
+                display: none;
+            }
+
+            .menu-lateral nav ul li a:hover,
+            .menu-lateral nav ul li a .icon:hover {
+                color: #9045F0 !important;
+            }
+
+@media only screen and (max-width: 320px) {
+    .menu-lateral .icones ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+        .menu-lateral .icones ul li .icon {
+            width: 18px;
+            height: 18px;
+        }
+
+    .menu-lateral nav ul li .icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    .menu-lateral nav {
+        margin-left: 0;
+    }
+
+    .menu-lateral .icones ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+        .menu-lateral .icones ul li .icon {
+            width: 60px;
+            height: 60px;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .titulo-perfil {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+
+    .menu-lateral .icones ul li .icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .menu-lateral nav ul li .icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .menu-lateral nav {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+        .menu-lateral nav ul li a span {
+            display: inline-flex;
+            font-size: 2em;
+            width: 70%;
+        }
+}
+
+@media (max-height: 680px) {
+    .menu-lateral nav ul li a {
+        color: #FFF;
+        text-decoration: none;
+        margin-left: 5%;
+    }
+
+        .menu-lateral nav ul li a span {
+            display: none;
+        }
+}
+
+@media(max-height: 580px) {
+    .menu-lateral .icones {
+        margin-top: 0;
+    }
+}

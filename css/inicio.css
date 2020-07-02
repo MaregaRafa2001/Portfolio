@@ -1,0 +1,49 @@
+.left-right {
+    position: relative;
+    animation: move-left-right 2s;
+    left: 0px;
+}
+
+@keyframes move-left-right {
+    from {
+        left: 200%;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+
+.top-down {
+    position: relative;
+    animation: move-top-down 2s;
+    top: 0px;
+}
+
+@keyframes move-top-down {
+    from {
+        top: -90vh;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+
+.bottom-top {
+    position: relative;
+    animation: move-bottom-top 2s;
+    bottom: 0px;
+}
+
+@keyframes move-bottom-top {
+    from {
+        bottom: -90vh;
+    }
+
+    to {
+        bottom: 0px;
+    }
+}
